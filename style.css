@@ -1,0 +1,91 @@
+
+  body {
+    margin: 0;
+    background-color: #101010;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  body::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 30px;
+  }
+  body {
+    background-color: rgb(27, 26, 26);
+    margin: 0 !important;
+  }
+  .nav {
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  .head{
+    font-size: 8rem;
+    display: flex;
+  }
+  .nav span {
+    margin-top: 26px;
+    font-size: 2.5rem;
+  }
+  .bar{
+    margin-top: 26px;
+    margin-right: 10px;
+    display: inline;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  hr {
+    border-top: 4px solid #ffffff;
+    border-radius: 10px;
+  }
+  
+  .container {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  .leftside {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .limage {
+    height: 55vh;
+    width: 100%;
+  }
+  .rightsoide {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .rimage {
+    height: 55vh;
+    width: 100%;
+  }
+  .overview {
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: flex-start;
+  }
+  .content {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 250;
+  }
+  .blanksline {
+    display: flex;
+    padding: 1.5rem;
+    border-bottom: 0.5px solid white;
+  }
